@@ -4,16 +4,9 @@ import java.util.*;
 
 import java.io.*;
 
- 
-
- 
-
 class StudentGrade
 
 {
-
- 
-
    public static int ReadInteger()
 
    {
@@ -34,8 +27,6 @@ class StudentGrade
 
         {
 
- 
-
               e.printStackTrace();
 
               return 0;
@@ -44,27 +35,15 @@ class StudentGrade
 
    }
 
-  
-
- 
-
    public static void main(String[] args)
 
-   {     
-
-         System.out.println("Program for simple student grading logic.");
-
- 
+   {    
 
          int MAX_STUDENTS = 10;
-
-        
 
          int [] arrMark = new int[MAX_STUDENTS];
 
          String grade = "";
-
- 
 
          for (int i = 0; i < MAX_STUDENTS; i++)
 
@@ -111,7 +90,6 @@ class StudentGrade
            System.out.format("%d\t%d\t%s\n", i + 1, arrMark[i], grade);
 
          }
-
    }
 
 }
